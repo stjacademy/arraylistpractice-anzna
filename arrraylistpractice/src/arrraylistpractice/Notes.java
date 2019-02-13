@@ -19,14 +19,13 @@ public class Notes
 		for (Integer num: myList)
 		{
 		    System.out.println(num);
-		    myList.remove(1);
 		}
-		
+		System.out.println(myList);
 		//myList.set(index, number);
 		//myList.add (index, number); - shows if able to add when printed
 		//myList.get(index); - can be also printed
 		//myList.remove(index); - can be also printed
-		
+		//never remove in a for-loop
 			
 	}
 }
